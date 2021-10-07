@@ -1,0 +1,38 @@
+.navbar{
+  height: 20vh;
+  width: 100vw;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 0 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mediaSearch{
+  border: 2px solid black;
+  padding: 3px;
+  width: 100vw;
+}
+
+.search{
+  height: 10vh;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbox {
+  width: 100%;
+  border-radius: 15px;
+  height: 30%;
+  padding: 5px;
+
+  background: none;
+  border: 2px solid black;
+}
+
+.searchbox:focus {
+  box-shadow: 0 0 8px 3px lightblue;
+}

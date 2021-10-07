@@ -1,0 +1,8 @@
+.episodeCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vw 0;
+  background: lightgrey;
+  min-width: 20%;
+}
